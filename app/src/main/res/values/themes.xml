@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main app theme using a clean, high-contrast background/text mapping -->
+    <style name="Theme.MyApp" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Keep window background and default text color pointing to our accessible palette -->
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:textColor">@color/colorOnBackground</item>
+    </style>
+
+    <!-- Keep existing theme name but map to the new theme to reduce breaking changes -->
+    <style name="Theme.StyleSync" parent="Theme.MyApp" />
+
+    <!-- Text appearance for BottomNavigationView labels that allows wrapping to 2 lines and centers text -->
+    <style name="BottomNavLabelStyle" parent="@android:style/TextAppearance.Small">
+        <!-- Allow multi-line labels -->
+        <item name="android:singleLine">false</item>
+        <item name="android:maxLines">2</item>
+        <!-- Center text horizontally under the icon -->
+        <item name="android:gravity">center_horizontal</item>
+        <!-- Keep casing consistent and readable -->
+        <item name="android:textAllCaps">false</item>
+        <!-- Slightly smaller text to improve fit; adjust if you prefer -->
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>

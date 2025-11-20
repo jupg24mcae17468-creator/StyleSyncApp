@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary (deep indigo) and variant -->
+    <color name="colorPrimary">#FF3F51B5</color>
+    <color name="colorPrimaryVariant">#FF303F9F</color>
+
+    <!-- Secondary / accent (vibrant orange) -->
+    <color name="colorSecondary">#FFFF9800</color>
+    <color name="colorSecondaryVariant">#FFFFA726</color>
+
+    <!-- Surfaces / backgrounds -->
+    <color name="colorBackground">#FFFFFFFF</color>
+    <color name="colorSurface">#FFFFFFFF</color>
+
+    <!-- On-colors (text/icons on top of surfaces and primary) -->
+    <color name="colorOnBackground">#FF121212</color>
+    <color name="colorOnSurface">#FF121212</color>
+    <color name="colorOnPrimary">#FFFFFFFF</color>
+    <color name="colorOnSecondary">#FF000000</color>
+
+    <!-- Helpful legacy tokens (kept for compatibility) -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>
